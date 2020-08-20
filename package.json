@@ -1,0 +1,36 @@
+{
+  "name": "gulp-source-restore",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "homepage": "https://github.com/XXllXX/gulp-source-restore",
+  "repository": "https://github.com/XXllXX/gulp-source-restore",
+  "author": "xxllxx",
+  "license": "MIT",
+  "gulpplugin": "gulp-source-restore",
+  "private": false,
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "gulp",
+    "sourcemap",
+    "mapFile restore"
+  ],
+  "scripts": {
+    "dev": "cross-env NODE_ENV=production gulp --require ts-node/register/transpile-only"
+  },
+  "dependencies": {
+    "del": "^5.1.0",
+    "plugin-error": "^1.0.1",
+    "source-map": "^0.7.3",
+    "through2": "^4.0.2",
+    "url": "^0.11.0",
+    "vinyl": "^2.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "gulp": "^4.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
