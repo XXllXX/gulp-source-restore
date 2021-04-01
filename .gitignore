@@ -1,4 +1,6 @@
 node_modules
 lib
-code
+code/**
+code1
 map
+test
